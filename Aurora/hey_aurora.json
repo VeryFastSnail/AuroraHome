@@ -1,8 +1,8 @@
 {
   "type": "micro",
   "wake_word": "Hey Aurora",
-  "author": "Kevin Ahrendt",
-  "website": "",
+  "author": "Rokas Sondaras",
+  "website": "https://rokas.lt",
   "model": "aurora.tflite",
   "trained_languages": ["en"],
   "version": 1,
