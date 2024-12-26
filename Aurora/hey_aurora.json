@@ -1,12 +1,16 @@
 {
-    "type": "micro",
-    "wake_word": "Hey Aurora",
-    "author": "Rokas Sondaras",
-    "website": "https://google.com"
-    "model": "./aurora.tflite",
-    "version": 1,
-    "micro": {
-        "probability_cutoff": 0.5,
-        "sliding_window_size": 10,
-    }
+  "type": "micro",
+  "wake_word": "Hey Aurora",
+  "author": "Kevin Ahrendt",
+  "website": "",
+  "model": "aurora.tflite",
+  "trained_languages": ["en"],
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.97,
+    "feature_step_size": 10,
+    "sliding_window_size": 5,
+    "tensor_arena_size": 26080,
+    "minimum_esphome_version": "2024.7.0"
+  }
 }
